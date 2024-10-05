@@ -1,0 +1,89 @@
+.container {
+  background-color: aqua;
+  width: 25%;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgb(69, 34, 119), rgb(144, 97, 209));
+  height: 100vh;
+}
+
+.btn {
+  margin: 5px;
+}
+
+.btn-submit {
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 5px;
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  cursor: pointer;
+
+  box-shadow: rgba(255, 255, 255, 0.1) -3px -3px 9px inset,
+    rgba(255, 255, 255, 0.15) 0 3px 9px inset,
+    rgba(255, 255, 255, 0.6) 0 1px 1px inset,
+    rgba(0, 0, 0, 0.3) 0 -8px 36px inset,
+    rgba(255, 255, 255, 0.6) 0 1px 5px inset, rgba(0, 0, 0, 0.2) 2px 19px 31px;
+  background-color: #7f00ff;
+  background-image: radial-gradient(
+      93% 87% at 87% 89%,
+      rgba(0, 0, 0, 0.23) 0,
+      transparent 86.18%
+    ),
+    radial-gradient(
+      66% 66% at 26% 20%,
+      rgba(255, 255, 255, 0.55) 0,
+      rgba(255, 255, 255, 0) 69.79%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  transition: all 150ms ease-in-out;
+}
+
+.btn-submit:hover {
+  filter: brightness(1.05);
+}
+
+.btn-submit:active {
+  transform: scale(0.95);
+}
+
+.button-42 {
+  padding: 5px 10px;
+  border: 0;
+  font-size: 16px;
+  transition: all 150ms ease-in-out;
+
+  border-radius: 14px;
+  font-weight: 600;
+
+  color: #000;
+  background: #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0 -2px 6px 0 inset, rgba(0, 0, 0, 0.02) 0 1px 3px 0,
+    rgba(27, 31, 35, 0.15) 0 0 0 1px;
+}
+
+.button-42:hover {
+  background: #f9f9f9;
+}
+
+.button-42:active {
+  transform: scale(0.95);
+}
